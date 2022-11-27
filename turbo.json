@@ -1,0 +1,16 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "inputs": [ "src/**" ],
+      "outputs": [ "dist/**" ]
+    },
+    "@vap/core#build": {
+      "inputs": [ "{ipc,log}/**" ],
+      "outputs": [ "dist/**" ]
+    },
+    "lint": {
+      "outputs": [ ]
+    }
+  }
+}

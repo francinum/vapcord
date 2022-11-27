@@ -1,0 +1,18 @@
+# Turbo
+.turbo
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.pnp.*
+
+# Node
+node_modules
+
+# User Config
+.vscode
+.envrc
+
+# Build
+dist

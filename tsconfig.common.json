@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ES2015",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": false,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": false,
+    "jsx": "react"
+  }
+}

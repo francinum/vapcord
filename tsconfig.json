@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.common.json",
+  "compilerOptions": {
+  },
+  "include": ["lib/**/*.ts"],
+  "exclude": ["node_modules", "packages"]
+}
