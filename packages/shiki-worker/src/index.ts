@@ -10,7 +10,7 @@ import { createWorkerHost } from '@vap/core/ipc'
 let highlighter: Highlighter
 
 const spec = {
-  async setOnigasm(wasm: string) {
+  async setOnigasm({ wasm }: { wasm: string | ArrayBuffer }) {
     shiki.setWasm(wasm)
   },
   async setHighlighter({ theme, langs }: { theme: Theme; langs: Lang[] }) {

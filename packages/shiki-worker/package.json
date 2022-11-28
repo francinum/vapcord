@@ -1,6 +1,6 @@
 {
   "name": "@vap/shiki-worker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "WebWorker service for Shiki",
   "author": "Vap0r1ze",
   "license": "MIT",

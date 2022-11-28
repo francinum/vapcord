@@ -20,12 +20,14 @@ export class WorkerClient<RS extends RemoteSpec> extends RemoteClient<RS> {
   worker?: Worker
   url: string
 
-  constructor(name: string, hostName: string, source: string) {
-    const blob = new Blob([source], { type: 'text/javascript' })
+  constructor(name: string, hostName: string, source: string | Blob) {
     const channel = new Channel(name)
 
     super(hostName, channel)
-    this.url = URL.createObjectURL(blob)
+    if (source instanceof Blob) {
+      const blob = new Blob([source], { type: 'text/javascript' })
+      this.url = URL.createObjectURL(blob)
+    } else this.url = source
   }
 
   async init() {

@@ -1,6 +1,6 @@
 import type { Channel } from './channel'
 
-export type RemoteSpec = Record<string, (...input: unknown[]) => Promise<any>>
+export type RemoteSpec = Record<string, (...input: any[]) => Promise<any>>
 
 /** An RPC host, can be connected to by multiple clients */
 export class RemoteHost<RS extends RemoteSpec> {
