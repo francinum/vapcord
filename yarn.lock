@@ -107,16 +107,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vap/shiki-worker-dts@workspace:packages/shiki-worker-dts":
-  version: 0.0.0-use.local
-  resolution: "@vap/shiki-worker-dts@workspace:packages/shiki-worker-dts"
-  dependencies:
-    "@vap/shiki-worker": "workspace:*"
-    typescript: 4.8.4
-  languageName: unknown
-  linkType: soft
-
-"@vap/shiki-worker@workspace:*, @vap/shiki-worker@workspace:packages/shiki-worker":
+"@vap/shiki-worker@workspace:packages/shiki-worker":
   version: 0.0.0-use.local
   resolution: "@vap/shiki-worker@workspace:packages/shiki-worker"
   dependencies:
