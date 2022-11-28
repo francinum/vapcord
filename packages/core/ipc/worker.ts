@@ -35,11 +35,19 @@ export class WorkerClient<RS extends RemoteSpec> extends RemoteClient<RS> {
     this.channel.addPipe({
       emit: (event, data) => worker.postMessage({ event, data }),
       listen: (event, callback) =>
-        worker.addEventListener('message', (ev) => {
+        (worker.onmessage = (ev) => {
           const { event: evName, data } = ev.data
           if (evName === event) callback(data)
         }),
     })
     await this.connect()
+  }
+
+  destroy() {
+    if (this.worker) {
+      this.worker.onmessage = null
+      this.worker.terminate()
+    }
+    if (this.url.startsWith('blob:')) URL.revokeObjectURL(this.url)
   }
 }

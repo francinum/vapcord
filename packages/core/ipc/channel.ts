@@ -94,11 +94,9 @@ export class Channel {
   _pipes: ChannelPipe[] = []
   _emitter = new EventEmitter()
   _logger?: Logger
-  id: string
+  _destroyed = false
 
-  constructor(id: string) {
-    this.id = id
-  }
+  constructor(public id: string) {}
 
   addPipe(pipe: ChannelPipe) {
     pipe.listen(`${ipcPrefix}:handshake`, (edge: ChannelEdge) => {
@@ -173,8 +171,7 @@ export class Channel {
       caller(message.data)
         .catch((error) => {
           console.error(error)
-          // TODO: Serialize error
-          return null
+          return new Error(error?.message ?? `${error}`)
         })
         .then((data) => {
           this._emitMessage({
@@ -257,7 +254,8 @@ export class Channel {
       this._callbacks.set(nonce, (data) => {
         this._callbacks.delete(nonce)
         clearTimeout(timeout)
-        resolve(data)
+        if (data instanceof Error) reject(data)
+        else resolve(data)
       })
     })
 
@@ -289,5 +287,12 @@ export class Channel {
     this._pipes.forEach((pipe) => this._emitHandshake(pipe))
   }
 
-  // TODO: add destroy method
+  destroy() {
+    this._emitter.removeAllListeners()
+    this._callbacks.clear()
+    this._callers.clear()
+    this._edgePipes.clear()
+    this._pipes = []
+    this._destroyed = true
+  }
 }
