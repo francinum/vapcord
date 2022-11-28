@@ -1,6 +1,6 @@
 {
   "name": "@vap/shiki-worker",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "WebWorker service for Shiki",
   "author": "Vap0r1ze",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "scripts": {
-    "build:min": "esbuild src/index.ts --outfile=dist/index.min.js --bundle --minify --sourcemap --target=esnext",
+    "build:min": "esbuild src/index.ts --outfile=dist/index.min.js --bundle --minify --sourcemap=inline --target=esnext",
     "build:full": "esbuild src/index.ts --outfile=dist/index.js --bundle --sourcemap --target=esnext",
     "build": "yarn build:min & yarn build:full"
   },
