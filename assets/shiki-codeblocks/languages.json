@@ -1,0 +1,891 @@
+[
+  {
+    "name": "ABAP",
+    "id": "abap",
+    "fileName": "grammars/abap.tmLanguage.json",
+    "scopeName": "source.abap"
+  },
+  {
+    "name": "ActionScript",
+    "id": "actionscript-3",
+    "fileName": "grammars/actionscript-3.tmLanguage.json",
+    "scopeName": "source.actionscript.3",
+    "aliases": [
+      "as",
+      "actionscript"
+    ]
+  },
+  {
+    "name": "Ada",
+    "id": "ada",
+    "fileName": "grammars/ada.tmLanguage.json",
+    "scopeName": "source.ada"
+  },
+  {
+    "name": "Apex",
+    "id": "apex",
+    "fileName": "grammars/apex.tmLanguage.json",
+    "scopeName": "source.apex"
+  },
+  {
+    "name": "AppleScript",
+    "id": "applescript",
+    "fileName": "grammars/applescript.tmLanguage.json",
+    "scopeName": "source.applescript"
+  },
+  {
+    "name": "AsciiDoc",
+    "id": "asciidoc",
+    "fileName": "grammars/asciidoc.tmLanguage.json",
+    "scopeName": "text.asciidoc"
+  },
+  {
+    "name": "Assembly x64",
+    "id": "asm",
+    "fileName": "grammars/asm.tmLanguage.json",
+    "scopeName": "source.asm.x86_64"
+  },
+  {
+    "name": "ASP.NET Razor",
+    "id": "asp-net-razor",
+    "fileName": "grammars/asp-net-razor.tmLanguage.json",
+    "devicon": "dot-net-plain",
+    "scopeName": "text.aspnetcorerazor",
+    "aliases": [
+      "razor"
+    ]
+  },
+  {
+    "name": "AWK",
+    "id": "awk",
+    "fileName": "grammars/awk.tmLanguage.json",
+    "scopeName": "source.awk"
+  },
+  {
+    "name": "Batchfile",
+    "id": "bat",
+    "fileName": "grammars/bat.tmLanguage.json",
+    "scopeName": "source.batchfile",
+    "aliases": [
+      "batch"
+    ]
+  },
+  {
+    "name": "C",
+    "id": "c",
+    "fileName": "grammars/c.tmLanguage.json",
+    "devicon": "c-plain",
+    "scopeName": "source.c"
+  },
+  {
+    "name": "Clojure",
+    "id": "clojure",
+    "fileName": "grammars/clojure.tmLanguage.json",
+    "devicon": "clojure-line",
+    "scopeName": "source.clojure",
+    "aliases": [
+      "clj"
+    ]
+  },
+  {
+    "name": "Cobol",
+    "id": "cobol",
+    "fileName": "grammars/cobol.tmLanguage.json",
+    "scopeName": "source.cobol"
+  },
+  {
+    "name": "CoffeeScript",
+    "id": "coffee",
+    "fileName": "grammars/coffee.tmLanguage.json",
+    "devicon": "coffeescript-original",
+    "scopeName": "source.coffee"
+  },
+  {
+    "name": "C++ Embedded Macro",
+    "id": "cpp.embedded.macro",
+    "fileName": "grammars/cpp.embedded.macro.tmLanguage.json",
+    "devicon": "cplusplus-plain",
+    "scopeName": "source.cpp.embedded.macro"
+  },
+  {
+    "name": "C++",
+    "id": "cpp",
+    "fileName": "grammars/cpp.tmLanguage.json",
+    "devicon": "cplusplus-plain",
+    "scopeName": "source.cpp"
+  },
+  {
+    "name": "Crystal",
+    "id": "crystal",
+    "fileName": "grammars/crystal.tmLanguage.json",
+    "scopeName": "source.crystal"
+  },
+  {
+    "name": "C#",
+    "id": "csharp",
+    "fileName": "grammars/csharp.tmLanguage.json",
+    "devicon": "csharp-plain",
+    "scopeName": "source.cs",
+    "aliases": [
+      "c#",
+      "cs"
+    ]
+  },
+  {
+    "name": "CSS",
+    "id": "css",
+    "fileName": "grammars/css.tmLanguage.json",
+    "devicon": "css3-plain",
+    "scopeName": "source.css"
+  },
+  {
+    "name": "D",
+    "id": "d",
+    "fileName": "grammars/d.tmLanguage.json",
+    "scopeName": "source.d"
+  },
+  {
+    "name": "Dart",
+    "id": "dart",
+    "fileName": "grammars/dart.tmLanguage.json",
+    "scopeName": "source.dart"
+  },
+  {
+    "name": "Diff",
+    "id": "diff",
+    "fileName": "grammars/diff.tmLanguage.json",
+    "scopeName": "source.diff"
+  },
+  {
+    "name": "Dockerfile",
+    "id": "dockerfile",
+    "fileName": "grammars/dockerfile.tmLanguage.json",
+    "devicon": "docker-plain",
+    "scopeName": "source.dockerfile"
+  },
+  {
+    "name": "Elixir",
+    "id": "elixir",
+    "fileName": "grammars/elixir.tmLanguage.json",
+    "devicon": "elixir-plain",
+    "scopeName": "source.elixir"
+  },
+  {
+    "name": "Elm",
+    "id": "elm",
+    "fileName": "grammars/elm.tmLanguage.json",
+    "devicon": "elm-plain",
+    "scopeName": "source.elm"
+  },
+  {
+    "name": "Erlang",
+    "id": "erlang",
+    "fileName": "grammars/erlang.tmLanguage.json",
+    "devicon": "erlang-plain",
+    "scopeName": "source.erlang"
+  },
+  {
+    "name": "F#",
+    "id": "fsharp",
+    "fileName": "grammars/fsharp.tmLanguage.json",
+    "devicon": "fsharp-plain",
+    "scopeName": "source.fsharp",
+    "aliases": [
+      "f#"
+    ]
+  },
+  {
+    "name": "Git Commit",
+    "id": "git-commit",
+    "fileName": "grammars/git-commit.tmLanguage.json",
+    "scopeName": "text.git-commit"
+  },
+  {
+    "name": "Git Rebase",
+    "id": "git-rebase",
+    "fileName": "grammars/git-rebase.tmLanguage.json",
+    "scopeName": "text.git-rebase"
+  },
+  {
+    "name": "GNU Plot",
+    "id": "gnuplot",
+    "fileName": "grammars/gnuplot.tmLanguage.json",
+    "scopeName": "source.gnuplot"
+  },
+  {
+    "name": "GDScript",
+    "id": "gdscript",
+    "fileName": "grammars/GDScript.tmLanguage.json",
+    "scopeName": "source.gdscript",
+    "aliases": [
+      "godot",
+      "gds",
+      "gd"
+    ]
+  },
+  {
+    "name": "Go",
+    "id": "go",
+    "fileName": "grammars/go.tmLanguage.json",
+    "devicon": "go-plain",
+    "scopeName": "source.go"
+  },
+  {
+    "name": "GraphQL",
+    "id": "graphql",
+    "fileName": "grammars/graphql.tmLanguage.json",
+    "scopeName": "source.graphql"
+  },
+  {
+    "name": "Groovy",
+    "id": "groovy",
+    "fileName": "grammars/groovy.tmLanguage.json",
+    "devicon": "groovy-plain",
+    "scopeName": "source.groovy"
+  },
+  {
+    "name": "Hack",
+    "id": "hack",
+    "fileName": "grammars/hack.tmLanguage.json",
+    "scopeName": "source.hack"
+  },
+  {
+    "name": "Haml",
+    "id": "haml",
+    "fileName": "grammars/haml.tmLanguage.json",
+    "scopeName": "text.haml"
+  },
+  {
+    "name": "Handlebars",
+    "id": "handlebars",
+    "fileName": "grammars/handlebars.tmLanguage.json",
+    "devicon": "handlebars-plain",
+    "scopeName": "text.html.handlebars",
+    "aliases": [
+      "hbs"
+    ]
+  },
+  {
+    "name": "Haskell",
+    "id": "haskell",
+    "fileName": "grammars/haskell.tmLanguage.json",
+    "devicon": "haskell-plain",
+    "scopeName": "source.haskell",
+    "aliases": [
+      "hs"
+    ]
+  },
+  {
+    "name": "HCL",
+    "id": "hcl",
+    "fileName": "grammars/hcl.tmLanguage.json",
+    "scopeName": "source.hcl"
+  },
+  {
+    "name": "High-Level Shading Language",
+    "id": "hlsl",
+    "fileName": "grammars/hlsl.tmLanguage.json",
+    "scopeName": "source.hlsl"
+  },
+  {
+    "name": "eRuby",
+    "id": "html-ruby-erb",
+    "fileName": "grammars/html-ruby-erb.tmLanguage.json",
+    "scopeName": "text.html.erb",
+    "aliases": [
+      "erb"
+    ]
+  },
+  {
+    "name": "HTML",
+    "id": "html",
+    "fileName": "grammars/html.tmLanguage.json",
+    "devicon": "html5-plain",
+    "scopeName": "text.html.basic"
+  },
+  {
+    "name": "HTTP",
+    "id": "http",
+    "fileName": "grammars/http.tmLanguage.json",
+    "scopeName": "source.http",
+    "aliases": [
+      "rest"
+    ]
+  },
+  {
+    "name": "INI",
+    "id": "ini",
+    "fileName": "grammars/ini.tmLanguage.json",
+    "scopeName": "source.ini"
+  },
+  {
+    "name": "Java",
+    "id": "java",
+    "fileName": "grammars/java.tmLanguage.json",
+    "devicon": "java-plain",
+    "scopeName": "source.java"
+  },
+  {
+    "name": "JavaScript",
+    "id": "javascript",
+    "fileName": "grammars/javascript.tmLanguage.json",
+    "devicon": "javascript-plain",
+    "scopeName": "source.js",
+    "aliases": [
+      "js",
+      "esm",
+      "cjs"
+    ]
+  },
+  {
+    "name": "Jinja Template",
+    "id": "jinja-html",
+    "fileName": "grammars/jinja-html.tmLanguage.json",
+    "scopeName": "text.html.jinja",
+    "aliases": [
+      "jhtml"
+    ]
+  },
+  {
+    "name": "Jinja",
+    "id": "jinja",
+    "fileName": "grammars/jinja.tmLanguage.json",
+    "scopeName": "source.jinja",
+    "aliases": [
+      "j2"
+    ]
+  },
+  {
+    "name": "JSON",
+    "id": "json",
+    "fileName": "grammars/json.tmLanguage.json",
+    "scopeName": "source.json"
+  },
+  {
+    "name": "JSON5",
+    "id": "json5",
+    "fileName": "grammars/json5.tmLanguage.json",
+    "scopeName": "source.json5"
+  },
+  {
+    "name": "JSON-C",
+    "id": "jsonc",
+    "fileName": "grammars/jsonc.tmLanguage.json",
+    "scopeName": "source.json.comments"
+  },
+  {
+    "name": "Jsonnet",
+    "id": "jsonnet",
+    "fileName": "grammars/jsonnet.tmLanguage.json",
+    "scopeName": "source.jsonnet"
+  },
+  {
+    "name": "JSX",
+    "id": "jsx",
+    "fileName": "grammars/javascript.tmLanguage.json",
+    "devicon": "react-original",
+    "scopeName": "source.js"
+  },
+  {
+    "name": "Julia",
+    "id": "julia",
+    "fileName": "grammars/julia.tmLanguage.json",
+    "scopeName": "source.julia",
+    "aliases": [
+      "jl"
+    ]
+  },
+  {
+    "name": "Kotlin",
+    "id": "kotlin",
+    "fileName": "grammars/kotlin.tmLanguage.json",
+    "devicon": "kotlin-plain",
+    "scopeName": "source.kotlin",
+    "aliases": [
+      "kt",
+      "kts"
+    ]
+  },
+  {
+    "name": "LaTeX",
+    "id": "latex",
+    "fileName": "grammars/latex.tmLanguage.json",
+    "scopeName": "text.tex.latex",
+    "aliases": [
+      "tex"
+    ]
+  },
+  {
+    "name": "Less",
+    "id": "less",
+    "fileName": "grammars/less.tmLanguage.json",
+    "devicon": "less-plain-wordmark",
+    "scopeName": "source.css.less"
+  },
+  {
+    "name": "Lisp",
+    "id": "lisp",
+    "fileName": "grammars/lisp.tmLanguage.json",
+    "scopeName": "source.lisp"
+  },
+  {
+    "name": "Logo",
+    "id": "logo",
+    "fileName": "grammars/logo.tmLanguage.json",
+    "scopeName": "source.logo"
+  },
+  {
+    "name": "Lua",
+    "id": "lua",
+    "fileName": "grammars/lua.tmLanguage.json",
+    "scopeName": "source.lua"
+  },
+  {
+    "name": "Luau",
+    "id": "luau",
+    "fileName": "grammars/luau.tmLanguage.json",
+    "scopeName": "source.luau"
+  },
+  {
+    "name": "Makefile",
+    "id": "makefile",
+    "fileName": "grammars/makefile.tmLanguage.json",
+    "scopeName": "source.makefile"
+  },
+  {
+    "name": "Markdown",
+    "id": "markdown",
+    "fileName": "grammars/markdown.tmLanguage.json",
+    "scopeName": "text.html.markdown",
+    "aliases": [
+      "md"
+    ]
+  },
+  {
+    "name": "MATLAB",
+    "id": "matlab",
+    "fileName": "grammars/matlab.tmLanguage.json",
+    "devicon": "matlab-plain",
+    "scopeName": "source.matlab"
+  },
+  {
+    "name": "MC Function",
+    "id": "mcfunction",
+    "fileName": "grammars/mcfunction.tmLanguage.json",
+    "scopeName": "source.mcfunction"
+  },
+  {
+    "name": "Multidimensional Expression",
+    "id": "mdx",
+    "fileName": "grammars/mdx.tmLanguage.json",
+    "scopeName": "text.html.markdown.jsx"
+  },
+  {
+    "name": "MoonScript",
+    "id": "moonscript",
+    "fileName": "grammars/moonscript.tmLanguage.json",
+    "scopeName": "source.moonscript",
+    "aliases": [
+      "moon"
+    ]
+  },
+  {
+    "name": "Nim",
+    "id": "nim",
+    "fileName": "grammars/nim.tmLanguage.json",
+    "scopeName": "source.nim"
+  },
+  {
+    "name": "Nimble",
+    "id": "nimble",
+    "fileName": "grammars/nimble.tmLanguage.json",
+    "scopeName": "source.nimble"
+  },
+  {
+    "name": "Nix",
+    "id": "nix",
+    "fileName": "grammars/nix.tmLanguage.json",
+    "scopeName": "source.nix"
+  },
+  {
+    "name": "Objective C",
+    "id": "objective-c",
+    "fileName": "grammars/objective-c.tmLanguage.json",
+    "devicon": "objectivec-plain",
+    "scopeName": "source.objcpp",
+    "aliases": [
+      "objc"
+    ]
+  },
+  {
+    "name": "OCaml",
+    "id": "ocaml",
+    "fileName": "grammars/ocaml.tmLanguage.json",
+    "devicon": "ocaml-plain",
+    "scopeName": "source.ocaml"
+  },
+  {
+    "name": "Pascal",
+    "id": "pascal",
+    "fileName": "grammars/pascal.tmLanguage.json",
+    "scopeName": "source.pascal",
+    "aliases": [
+      "pas"
+    ]
+  },
+  {
+    "name": "PEG.js",
+    "id": "pegjs",
+    "fileName": "grammars/pegjs.tmLanguage.json",
+    "scopeName": "source.pegjs"
+  },
+  {
+    "name": "Perl",
+    "id": "perl",
+    "fileName": "grammars/perl.tmLanguage.json",
+    "scopeName": "source.perl"
+  },
+  {
+    "name": "Raku",
+    "id": "perl6",
+    "fileName": "grammars/perl6.tmLanguage.json",
+    "scopeName": "source.perl.6",
+    "aliases": [
+      "raku",
+      "p6"
+    ]
+  },
+  {
+    "name": "PHP Template",
+    "id": "php-html",
+    "fileName": "grammars/php-html.tmLanguage.json",
+    "devicon": "php-plain",
+    "scopeName": "text.html.php",
+    "aliases": [
+      "phtml"
+    ]
+  },
+  {
+    "name": "PHP",
+    "id": "php",
+    "fileName": "grammars/php.tmLanguage.json",
+    "devicon": "php-plain",
+    "scopeName": "source.php"
+  },
+  {
+    "name": "PL/SQL",
+    "id": "pls",
+    "fileName": "grammars/pls.tmLanguage.json",
+    "scopeName": "source.plsql.oracle"
+  },
+  {
+    "name": "PostCSS",
+    "id": "postcss",
+    "fileName": "grammars/postcss.tmLanguage.json",
+    "scopeName": "source.css.postcss"
+  },
+  {
+    "name": "PowerShell",
+    "id": "powershell",
+    "fileName": "grammars/powershell.tmLanguage.json",
+    "scopeName": "source.powershell",
+    "aliases": [
+      "ps",
+      "ps1"
+    ]
+  },
+  {
+    "name": "Prolog",
+    "id": "prolog",
+    "fileName": "grammars/prolog.tmLanguage.json",
+    "scopeName": "source.prolog"
+  },
+  {
+    "name": "Protocol Buffer 3",
+    "id": "proto",
+    "fileName": "grammars/proto3.tmLanguage.json",
+    "scopeName": "source.proto"
+  },
+  {
+    "name": "Pug",
+    "id": "pug",
+    "fileName": "grammars/pug.tmLanguage.json",
+    "scopeName": "text.pug",
+    "aliases": [
+      "jade"
+    ]
+  },
+  {
+    "name": "Puppet",
+    "id": "puppet",
+    "fileName": "grammars/puppet.tmLanguage.json",
+    "scopeName": "source.puppet"
+  },
+  {
+    "name": "PureScript",
+    "id": "purescript",
+    "fileName": "grammars/purescript.tmLanguage.json",
+    "scopeName": "source.purescript",
+    "aliases": [
+      "purs"
+    ]
+  },
+  {
+    "name": "Python",
+    "id": "python",
+    "fileName": "grammars/python.tmLanguage.json",
+    "devicon": "python-plain",
+    "scopeName": "source.python",
+    "aliases": [
+      "py"
+    ]
+  },
+  {
+    "name": "R",
+    "id": "r",
+    "fileName": "grammars/r.tmLanguage.json",
+    "devicon": "r-original",
+    "scopeName": "source.r"
+  },
+  {
+    "name": "ASP.NET Razor",
+    "id": "razor",
+    "fileName": "grammars/razor.tmLanguage.json",
+    "devicon": "dot-net-plain",
+    "scopeName": "text.html.cshtml",
+    "aliases": [
+      "cshtml"
+    ]
+  },
+  {
+    "name": "Ruby",
+    "id": "ruby",
+    "fileName": "grammars/ruby.tmLanguage.json",
+    "devicon": "ruby-plain",
+    "scopeName": "source.ruby",
+    "aliases": [
+      "rb"
+    ]
+  },
+  {
+    "name": "Rust",
+    "id": "rust",
+    "fileName": "grammars/rust.tmLanguage.json",
+    "devicon": "rust-plain",
+    "scopeName": "source.rust",
+    "aliases": [
+      "rs"
+    ]
+  },
+  {
+    "name": "SAS",
+    "id": "sas",
+    "fileName": "grammars/sas.tmLanguage.json",
+    "scopeName": "source.sas"
+  },
+  {
+    "name": "Sass",
+    "id": "sass",
+    "fileName": "grammars/sass.tmLanguage.json",
+    "devicon": "sass-original",
+    "scopeName": "source.sass"
+  },
+  {
+    "name": "Scala",
+    "id": "scala",
+    "fileName": "grammars/scala.tmLanguage.json",
+    "devicon": "scala-plain",
+    "scopeName": "source.scala"
+  },
+  {
+    "name": "Scheme",
+    "id": "scheme",
+    "fileName": "grammars/scheme.tmLanguage.json",
+    "scopeName": "source.scheme"
+  },
+  {
+    "name": "SCSS",
+    "id": "scss",
+    "fileName": "grammars/scss.tmLanguage.json",
+    "devicon": "sass-original",
+    "scopeName": "source.css.scss"
+  },
+  {
+    "name": "ShaderLab",
+    "id": "shaderlab",
+    "fileName": "grammars/shaderlab.tmLanguage.json",
+    "scopeName": "source.shaderlab",
+    "aliases": [
+      "shader"
+    ]
+  },
+  {
+    "name": "Shell",
+    "id": "shellscript",
+    "fileName": "grammars/shellscript.tmLanguage.json",
+    "devicon": "bash-plain",
+    "scopeName": "source.shell",
+    "aliases": [
+      "shell",
+      "bash",
+      "sh",
+      "zsh"
+    ]
+  },
+  {
+    "name": "Smalltalk",
+    "id": "smalltalk",
+    "fileName": "grammars/smalltalk.tmLanguage.json",
+    "scopeName": "source.smalltalk"
+  },
+  {
+    "name": "SourcePawn",
+    "id": "sp",
+    "fileName": "grammars/sourcepawn.tmLanguage.json",
+    "scopeName": "source.sourcepawn"
+  },
+  {
+    "name": "SQL",
+    "id": "sql",
+    "fileName": "grammars/sql.tmLanguage.json",
+    "scopeName": "source.sql"
+  },
+  {
+    "name": "SSH Config",
+    "id": "ssh-config",
+    "fileName": "grammars/ssh-config.tmLanguage.json",
+    "scopeName": "source.ssh-config"
+  },
+  {
+    "name": "Stylus",
+    "id": "stylus",
+    "fileName": "grammars/stylus.tmLanguage.json",
+    "devicon": "stylus-original",
+    "scopeName": "source.stylus",
+    "aliases": [
+      "styl"
+    ]
+  },
+  {
+    "name": "Swift",
+    "id": "swift",
+    "fileName": "grammars/swift.tmLanguage.json",
+    "devicon": "swift-plain",
+    "scopeName": "source.swift"
+  },
+  {
+    "name": "Tcl",
+    "id": "tcl",
+    "fileName": "grammars/tcl.tmLanguage.json",
+    "scopeName": "source.tcl"
+  },
+  {
+    "name": "TOML",
+    "id": "toml",
+    "fileName": "grammars/toml.tmLanguage.json",
+    "scopeName": "source.toml"
+  },
+  {
+    "name": "TypeScript Doc",
+    "id": "ts-doc",
+    "fileName": "grammars/ts.tmLanguage.json",
+    "devicon": "typescript-plain",
+    "scopeName": "documentation.injection.ts"
+  },
+  {
+    "name": "TSX",
+    "id": "tsx",
+    "fileName": "grammars/tsx.tmLanguage.json",
+    "devicon": "react-original",
+    "scopeName": "source.tsx"
+  },
+  {
+    "name": "TypeScript",
+    "id": "typescript",
+    "fileName": "grammars/typescript.tmLanguage.json",
+    "devicon": "typescript-plain",
+    "scopeName": "source.ts",
+    "aliases": [
+      "ts"
+    ]
+  },
+  {
+    "name": "VHDL",
+    "id": "vhdl",
+    "fileName": "grammars/vhdl.tmLanguage.json",
+    "scopeName": "source.vhdl"
+  },
+  {
+    "name": "Visual Basic .NET",
+    "id": "vb",
+    "fileName": "grammars/vb.tmLanguage.json",
+    "devicon": "dot-net-plain",
+    "scopeName": "source.asp.vb.net",
+    "aliases": [
+      "cmd"
+    ]
+  },
+  {
+    "name": "VimL",
+    "id": "viml",
+    "fileName": "grammars/viml.tmLanguage.json",
+    "devicon": "vim-plain",
+    "scopeName": "source.viml",
+    "aliases": [
+      "vim"
+    ]
+  },
+  {
+    "name": "Vue HTML",
+    "id": "vue-html",
+    "fileName": "grammars/vue-html.tmLanguage.json",
+    "devicon": "vuejs-plain",
+    "scopeName": "text.html.vue-html"
+  },
+  {
+    "name": "Vue",
+    "id": "vue",
+    "fileName": "grammars/vue.tmLanguage.json",
+    "devicon": "vuejs-plain",
+    "scopeName": "source.vue"
+  },
+  {
+    "name": "WebAssembly",
+    "id": "wasm",
+    "fileName": "grammars/wasm.tmLanguage.json",
+    "scopeName": "source.wat",
+    "aliases": [
+      "wat"
+    ]
+  },
+  {
+    "name": "XML",
+    "id": "xml",
+    "fileName": "grammars/xml.tmLanguage.json",
+    "scopeName": "text.xml"
+  },
+  {
+    "name": "XSL",
+    "id": "xsl",
+    "fileName": "grammars/xsl.tmLanguage.json",
+    "scopeName": "text.xml.xsl"
+  },
+  {
+    "name": "YAML",
+    "id": "yaml",
+    "fileName": "grammars/yaml.tmLanguage.json",
+    "scopeName": "source.yaml",
+    "aliases": [
+      "yml"
+    ]
+  },
+  {
+    "name": "Wenyan",
+    "id": "文言",
+    "fileName": "grammars/文言.tmLanguage.json",
+    "scopeName": "source.wenyan",
+    "aliases": [
+      "wenyan"
+    ]
+  }
+]
