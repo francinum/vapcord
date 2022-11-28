@@ -112,21 +112,21 @@ __metadata:
   resolution: "@vap/shiki-worker@workspace:packages/shiki-worker"
   dependencies:
     "@vap/core": "workspace:*"
-    "@vap/shiki": 0.10.3
+    "@vap/shiki": 0.10.4
     esbuild: ^0.15.16
     highlight.js: 10.6.0
     typescript: 4.8.4
   languageName: unknown
   linkType: soft
 
-"@vap/shiki@npm:0.10.3":
-  version: 0.10.3
-  resolution: "@vap/shiki@npm:0.10.3"
+"@vap/shiki@npm:0.10.4":
+  version: 0.10.4
+  resolution: "@vap/shiki@npm:0.10.4"
   dependencies:
     jsonc-parser: ^3.0.0
     vscode-oniguruma: ^1.6.1
     vscode-textmate: 5.2.0
-  checksum: 1895391929d80b0cc5d27858ef57298af30be2b176eb0cef5f0c288966dee09583d8aaed091ad6717113fba560441693f4d947ae8a7c0bf9336ed282ff0028a4
+  checksum: 29279be75cb7e92f8acb449effff5e3890745bcf97b6f23e2267535ef02c731018354cadd50baa340e2f06cf43c386b04e4c229e2a853ca7f7d73ab31653e946
   languageName: node
   linkType: hard
 
