@@ -1,6 +1,6 @@
 {
   "name": "@vap/shiki-worker",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "WebWorker service for Shiki",
   "author": "Vap0r1ze",
   "license": "MIT",
@@ -12,13 +12,13 @@
     "access": "public"
   },
   "scripts": {
-    "build:min": "esbuild src/index.ts --outfile=dist/index.min.js --bundle --minify --sourcemap=inline --target=esnext",
-    "build:full": "esbuild src/index.ts --outfile=dist/index.js --bundle --sourcemap --target=esnext",
+    "build:min": "esbuild src/index.ts --outfile=dist/index.min.js --bundle --minify --target=esnext",
+    "build:full": "esbuild src/index.ts --outfile=dist/index.js --bundle --sourcemap=inline --target=esnext",
     "build": "yarn build:min & yarn build:full"
   },
   "devDependencies": {
     "@vap/core": "workspace:*",
-    "@vap/shiki": "0.10.4",
+    "@vap/shiki": "0.10.5",
     "esbuild": "^0.15.16",
     "highlight.js": "10.6.0",
     "typescript": "4.8.4"
