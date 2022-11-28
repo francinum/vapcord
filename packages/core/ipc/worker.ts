@@ -18,6 +18,7 @@ export const createWorkerHost = <RS extends RemoteSpec>(
 
 export class WorkerClient<RS extends RemoteSpec> extends RemoteClient<RS> {
   worker?: Worker
+  workerListeners: EventListener[] = []
   url: string
 
   constructor(name: string, hostName: string, source: string | Blob) {
@@ -34,20 +35,25 @@ export class WorkerClient<RS extends RemoteSpec> extends RemoteClient<RS> {
     const worker = (this.worker = new Worker(this.url))
     this.channel.addPipe({
       emit: (event, data) => worker.postMessage({ event, data }),
-      listen: (event, callback) =>
-        (worker.onmessage = (ev) => {
+      listen: (event, callback) => {
+        const listener = (ev: MessageEvent<{ event: string; data: any }>) => {
           const { event: evName, data } = ev.data
           if (evName === event) callback(data)
-        }),
+        }
+        this.workerListeners.push(listener)
+        worker.addEventListener('message', listener)
+      },
     })
     await this.connect()
   }
 
   destroy() {
     if (this.worker) {
-      this.worker.onmessage = null
+      for (const listener of this.workerListeners)
+        this.worker.removeEventListener('message', listener)
       this.worker.terminate()
     }
+    this.channel.destroy()
     if (this.url.startsWith('blob:')) URL.revokeObjectURL(this.url)
   }
 }
