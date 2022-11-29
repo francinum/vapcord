@@ -242,7 +242,12 @@ export class Channel {
   }
   call(
     messageData: ChannelMessageIn,
-    opts: { timeout: number } = { timeout: 10000 }
+    opts: {
+      timeout: number
+      signal?: AbortSignal
+    } = {
+      timeout: 10000,
+    }
   ): Promise<any> {
     const nonce = this.createNonce()
 
@@ -254,8 +259,12 @@ export class Channel {
       this._callbacks.set(nonce, (data) => {
         this._callbacks.delete(nonce)
         clearTimeout(timeout)
-        if (data instanceof Error) reject(data)
-        else resolve(data)
+        if (opts.signal?.aborted) {
+          if (opts.signal.reason instanceof Error) reject(opts.signal.reason)
+        } else {
+          if (data instanceof Error) reject(data)
+          else resolve(data)
+        }
       })
     })
 
