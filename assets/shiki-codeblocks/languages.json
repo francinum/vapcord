@@ -46,6 +46,12 @@
     "scopeName": "source.asm.x86_64"
   },
   {
+    "name": "Astro",
+    "id": "astro",
+    "fileName": "grammars/astro.tmLanguage.json",
+    "scopeName": "source.astro"
+  },
+  {
     "name": "ASP.NET Razor",
     "id": "asp-net-razor",
     "fileName": "grammars/asp-net-razor.tmLanguage.json",
