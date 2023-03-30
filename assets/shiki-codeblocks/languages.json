@@ -481,10 +481,10 @@
     "scopeName": "source.mcfunction"
   },
   {
-    "name": "Multidimensional Expression",
+    "name": "MDX",
     "id": "mdx",
     "fileName": "grammars/mdx.tmLanguage.json",
-    "scopeName": "text.html.markdown.jsx"
+    "scopeName": "source.mdx"
   },
   {
     "name": "MoonScript",
