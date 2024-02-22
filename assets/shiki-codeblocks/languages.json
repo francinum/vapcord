@@ -170,6 +170,12 @@
     "scopeName": "source.dockerfile"
   },
   {
+    "name": "Dream Maker",
+    "id": "dm",
+    "fileName":"grammars/dreammaker.tmLanguage.json",
+    "scopeName": "source.dm"
+  },
+  {
     "name": "Elixir",
     "id": "elixir",
     "fileName": "grammars/elixir.tmLanguage.json",
